@@ -10,6 +10,8 @@ public class Foobar
 		char myChar;
 		Scanner input = new Scanner(System.in);
 
+		System.out.println( 5.1 % 2 );
+		
 		System.out.print("Gimme an int: ");
 		myInt = input.nextInt();
 		System.out.print("Gimme a double: ");
@@ -19,7 +21,9 @@ public class Foobar
 		System.out.print("Gimme a char: ");
 		myChar = input.next().charAt(0);
 		
-		System.out.println();
+		System.out.println( );
+		
+		
 		System.out.printf("%20s","Your int was...");
 		System.out.printf("%10d",myInt);
 		System.out.println();
@@ -31,17 +35,17 @@ public class Foobar
 		System.out.println();
 		System.out.printf("%20s","Your boolean was...");
 		System.out.printf("%10b",myBoolean);
-		myBoolean = !myBoolean;
+		//myBoolean = !myBoolean;
 		System.out.println();
 		System.out.printf("%20s","The opposite is...");
-		System.out.printf("%10b",myBoolean);
+		System.out.printf("%10b",!myBoolean);
 		System.out.println();
 		System.out.printf("%20s","Your char was...");
 		System.out.printf("%10c",myChar);
 		System.out.println();
 		System.out.printf("%20s","The next char is...");
-		myChar++;
-		System.out.printf("%10c",myChar);
+		//myChar++;
+		System.out.printf("%10c",myChar + 1);
 		
 	}
 }
