@@ -9,6 +9,27 @@ public class Foobar
 		boolean myBoolean;
 		char myChar;
 		Scanner input = new Scanner(System.in);
+		
+		System.out.print("Please enter the price for a six-pack of soda: ");
+		double packPrice = input.nextDouble();
+		// Read price per bottle
+		System.out.print("Please enter the price for a two-liter bottle of soda: ");
+		double bottlePrice = input.nextDouble();
+		
+		final double CANS_PER_PACK = 6;
+		final double CAN_VOLUME = 0.355; // 12 oz. = 0.355 l
+		final double BOTTLE_VOLUME = 2;
+		
+		// Compute and print price per liter
+		double packPricePerLiter = packPrice / (CANS_PER_PACK * CAN_VOLUME);
+		double bottlePricePerLiter = bottlePrice / BOTTLE_VOLUME;
+		
+		System.out.printf("Pack price per liter:   %8.2f", packPricePerLiter);
+		System.out.println();
+		System.out.printf("Bottle price per liter: %8.2f", bottlePricePerLiter);
+		System.out.println();
+		
+		
 		System.out.println(10.1 % 2);
 
 		System.out.println( 5.1 % 2 );
@@ -23,7 +44,6 @@ public class Foobar
 		myChar = input.next().charAt(0);
 		
 		System.out.println( );
-		
 		
 		System.out.printf("%20s","Your int was...");
 		System.out.printf("%10d",myInt);
