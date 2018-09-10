@@ -67,6 +67,14 @@ public class Foobar
 		System.out.printf("%20s","The next char is...");
 		//myChar++;
 		System.out.printf("%10c",myChar + 1);
+		System.out.println();
+		
+		System.out.printf("Your int was    %10d",myInt);
+		System.out.println();
+		
+		System.out.printf("Your double was %10.2f",myDouble);
+		System.out.println();
+		
 		
 	}
 }
