@@ -9,7 +9,7 @@ public class Foobar
 		boolean myBoolean;
 		char myChar;
 		Scanner input = new Scanner(System.in);
-
+		System.out.println(10.1 % 2);
 		System.out.print("Gimme an int: ");
 		myInt = input.nextInt();
 		System.out.print("Gimme a double: ");
