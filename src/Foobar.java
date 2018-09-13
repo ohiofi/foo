@@ -4,29 +4,20 @@ public class Foobar
 {
 	public static void main(String[] args)
 	{
+		String foo = "Agent" + 0 + 0 + 3 + 4;
+		System.out.println(foo);
+		foo = 0 + 0 + 3 + 4 + "Agent";
+		System.out.println(foo);
+		foo.substring(1,3);
+		System.out.println(foo);
+		foo.charAt(0);
+		System.out.println(foo.length());
+		
 //		int myInt;
 //		double myDouble;
 //		boolean myBoolean;
 //		char myChar;
 //		Scanner input = new Scanner(System.in);
-		
-		String foo = "Agent" + 0 + 0 + 3 + 4;
-
-		System.out.println(foo);
-
-		foo = 0 + 0 + 3 + 4 + "Agent";
-
-		System.out.println(foo);
-
-		foo.substring(1,3);
-
-		System.out.println(foo);
-
-		foo.charAt(0);
-
-		System.out.println(foo.length());
-		
-		
 		
 //		System.out.print("Please enter the price for a six-pack of soda: ");
 //		double packPrice = input.nextDouble();
