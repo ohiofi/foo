@@ -4,14 +4,16 @@ public class Foobar
 {
 	public static void main(String[] args)
 	{
-		String foo = "Agent" + 0 + 0 + 3 + 4;
-		System.out.println(foo);
+		String foo = "Agent" + 0 + 0 + (3 + 4);
+		System.out.println("Line 8 = " + foo);
 		foo = 0 + 0 + 3 + 4 + "Agent";
-		System.out.println(foo);
+		System.out.println("Line 10 = " + foo);
+		foo.replace("t","da");
+		System.out.println("Line 12 = " + foo);
 		foo.substring(1,3);
-		System.out.println(foo);
+		System.out.println("Line 14 = " + foo);
 		foo.charAt(0);
-		System.out.println(foo.length());
+		System.out.println("Line 16 = " + foo.length());
 		
 //		int myInt;
 //		double myDouble;
