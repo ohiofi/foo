@@ -85,6 +85,8 @@ public class Foobar
 //		System.out.printf("%20s","The next char is...");
 //		//myChar++;
 //		System.out.printf("%10c",myChar + 1);
+		//myBoolean = !myBoolean;
+		//myChar++;
 		
 	}
 }
