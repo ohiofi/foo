@@ -7,7 +7,22 @@ public class Foobar
 		char foo = 'A';
 	    int bar = 0;
 	    bar = foo;
-	    System.out.print(bar);
+	    System.out.println(bar);
+	    String str1, str2, str3;
+	    
+	    Scanner input = new Scanner(System.in);
+	    System.out.print("Please enter a sentence (for example, 'the quick brown fox'): ");
+	    str1 = input.next();
+	    System.out.println(str1);
+	    str2 = input.next();
+	    System.out.println(str2);
+	    str3 = input.next();
+	    System.out.println(str3);
+	    
+//	    String str4;
+//	    System.out.print("Please enter the same sentence: ");
+//	    str4 = input.nextLine();
+//	    System.out.println(str4);
 	      
 //		String foo = "Agent" + 0 + 0 + (3 + 4);
 //		System.out.println("Line 8 = " + foo);
@@ -72,7 +87,7 @@ public class Foobar
 //		System.out.println();
 //		System.out.printf("%20s","Your boolean was...");
 //		System.out.printf("%10b",myBoolean);
-//		//myBoolean = !myBoolean;
+//		myBoolean = !myBoolean;
 //		System.out.println();
 //		System.out.printf("%20s","The opposite is...");
 //		System.out.printf("%10b",!myBoolean);
@@ -81,10 +96,10 @@ public class Foobar
 //		System.out.printf("%10c",myChar);
 //		System.out.println();
 //		System.out.printf("%20s","The next char is...");
-//		//myChar++;
+//		myChar++;
 //		System.out.printf("%10c",myChar + 1);
-		//myBoolean = !myBoolean;
-		//myChar++;
+//		myBoolean = !myBoolean;
+//		myChar++;
 		
 	}
 }
