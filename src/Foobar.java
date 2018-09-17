@@ -4,12 +4,12 @@ public class Foobar
 {
 	public static void main(String[] args)
 	{
-		char foo = 'A';
-	    int bar = 0;
-	    bar = foo;
-	    System.out.println(bar);
+//		char foo = 42;
+//	    int bar = 0;
+//	    bar = foo;
+//	    System.out.println(foo);
+		
 	    String str1, str2, str3;
-	    
 	    Scanner input = new Scanner(System.in);
 	    System.out.print("Please enter a sentence (for example, 'the quick brown fox'): ");
 	    str1 = input.next();
