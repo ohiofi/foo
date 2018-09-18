@@ -4,11 +4,6 @@ public class Foobar
 {
 	public static void main(String[] args)
 	{
-//		char foo = 42;
-//	    int bar = 0;
-//	    bar = foo;
-//	    System.out.println(foo);
-		
 	    String str1, str2, str3;
 	    Scanner input = new Scanner(System.in);
 	    System.out.print("Please enter a sentence (for example, 'the quick brown fox'): ");
@@ -23,6 +18,20 @@ public class Foobar
 //	    System.out.print("Please enter the same sentence: ");
 //	    str4 = input.nextLine();
 //	    System.out.println(str4);
+	    
+//		String foo = "foo";
+//		
+//		/*foo = foo*3;*/
+//		
+//		foo += "bar";
+//		foo = foo + "baz";
+//		System.out.print("Please enter the number of bottles: ");
+//		System.out.print(foo);
+		
+//		char foo = 42;
+//	    int bar = 0;
+//	    bar = foo;
+//	    System.out.println(foo);
 	      
 //		String foo = "Agent" + 0 + 0 + (3 + 4);
 //		System.out.println("Line 8 = " + foo);
