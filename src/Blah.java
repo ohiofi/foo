@@ -9,9 +9,9 @@ public class Blah {
 		// Print information about the moved rectangle
 		System.out.print("x: "); 
 		System.out.println(box.getX()); 
-		System.out.println("Expected: 15");
+		System.out.println("Expected x: 15");
 		System.out.print("y: "); 
 		System.out.println(box.getY()); 
-		System.out.println("Expected: 25");
+		System.out.println("Expected y: 25");
 	}
 }

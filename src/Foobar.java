@@ -1,30 +1,30 @@
 import java.util.Scanner;
-
 public class Foobar
 {
 	public static void main(String[] args)
 	{
-		
-	    String str1, str2, str3;
-	    Scanner input = new Scanner(System.in);
+	    int str1, str2, str3;
+	    Scanner inputNumbers = new Scanner(System.in);
+	    Scanner inputStrings = new Scanner(System.in);
 	    System.out.print("Please enter a sentence (for example, 'the quick brown fox'): ");
-	    str1 = input.next();
+	    str1 = input.nextInt();
 	    System.out.println(str1);
-	    str2 = input.next();
+	    //str2 = str1;
+	    str2 = input.nextInt();
 	    System.out.println(str2);
-	    System.out.println("str1 == str2? " + str1 == str2);
-	    //str3 = input.next();
-	    //System.out.println(str3);
+	    //System.out.println("str1 equals str2? ");
+	    //System.out.println(str1.comp
+	    str3 = input.nextInt();
+	    System.out.println(str3);
 	    //System.out.println(System.identityHashCode(str1));
 	    //System.out.println(System.identityHashCode(str2));
 	    //System.out.println(System.identityHashCode(str3));
-
-	    
-//	    String str4; 
-//	    System.out.print("Please enter the same sentence: ");
-//	    str4 = input.nextLine();
-//	    System.out.println(str4);
-	      
+	    String str4; 
+	    System.out.print("Please enter the same sentence: ");
+	    input.nextLine(); // catch the enter key press
+	    str4 = input.nextLine();
+	    System.out.println(str4);
+	    System.out.println("GAME OVER");
 //		String foo = "Agent" + 0 + 0 + (3 + 4);
 //		System.out.println("Line 8 = " + foo);
 //		foo = 0 + 0 + 3 + 4 + "Agent";
