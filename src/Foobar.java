@@ -4,10 +4,6 @@ public class Foobar
 {
 	public static void main(String[] args)
 	{
-//		char foo = 42;
-//	    int bar = 0;
-//	    bar = foo;
-//	    System.out.println(foo);
 		
 	    String str1, str2, str3;
 	    Scanner input = new Scanner(System.in);
@@ -16,8 +12,13 @@ public class Foobar
 	    System.out.println(str1);
 	    str2 = input.next();
 	    System.out.println(str2);
-	    str3 = input.next();
-	    System.out.println(str3);
+	    System.out.println("str1 == str2? " + str1 == str2);
+	    //str3 = input.next();
+	    //System.out.println(str3);
+	    //System.out.println(System.identityHashCode(str1));
+	    //System.out.println(System.identityHashCode(str2));
+	    //System.out.println(System.identityHashCode(str3));
+
 	    
 //	    String str4;
 //	    System.out.print("Please enter the same sentence: ");
