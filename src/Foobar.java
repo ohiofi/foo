@@ -20,7 +20,7 @@ public class Foobar
 	    //System.out.println(System.identityHashCode(str3));
 
 	    
-//	    String str4;
+//	    String str4; 
 //	    System.out.print("Please enter the same sentence: ");
 //	    str4 = input.nextLine();
 //	    System.out.println(str4);
