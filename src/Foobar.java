@@ -10,9 +10,11 @@ public class Foobar
 	    System.out.print("Please enter a sentence (for example, 'the quick brown fox'): ");
 	    str1 = input.next();
 	    System.out.println(str1);
-	    str2 = input.next();
+	    //str2 = input.next();
+	    str2 = str1;
 	    System.out.println(str2);
-	    System.out.println("str1 == str2? " + str1 == str2);
+	    System.out.print("str1 == str2? ");
+	    System.out.println(str1 == str2);
 	    //str3 = input.next();
 	    //System.out.println(str3);
 	    //System.out.println(System.identityHashCode(str1));
